@@ -1,0 +1,11 @@
+<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav menu__list">
+        <li class="{% if url == 'index' %}active menu__item menu__item--current{% else %}menu__item{% endif %}"><a class="menu__link" href="{{ link_to_homepage }}">Domů <span class="sr-only">(current)</span></a></li>
+        <li class="{% if url == 'sluzby' %}active menu__item menu__item--current{% else %}menu__item{% endif %}"><a class="menu__link" href="sluzby.html">Služby</a></li>
+        {# <! -- removed from menu -->
+            <li class="{% if url == 'reference' %}active menu__item menu__item--current{% else %}menu__item{% endif %}"><a class="menu__link" href="reference.html">Reference</a></li>
+        #}
+        <li class="{% if url == 'projekty' %}active menu__item menu__item--current{% else %}menu__item{% endif %}"><a class="menu__link" href="projekty.html">Projekty</a></li>
+        <li class="{% if url == 'kontakt' %}active menu__item menu__item--current{% else %}menu__item{% endif %}"><a class="menu__link" href="kontakt.html">Kontakt</a></li>
+    </ul>
+</div>

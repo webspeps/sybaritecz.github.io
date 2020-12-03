@@ -1,0 +1,109 @@
+<div class="contact_page">
+		<div class="container">
+			<h3 class="title">Kontaktní informace</h3>
+			<div class="col-md-8 contact-grids1 animated wow fadeInRight" data-wow-delay=".5s">
+				<form id="formKontakt">
+						<div class="contact-form2">
+							<h4>Jméno</h4>
+
+                                                        <input type="text" id="jmenoKontakt" placeholder="Vaše jméno a příjmení" required="">
+						</div>
+						<div class="contact-form2">
+							<h4>Stránky</h4>
+
+								<input type="text" id="strankyKontakt" placeholder="Vaše stávající stránky, pokud máte">
+
+						</div>
+
+						<div class="contact-form2">
+							<h4>Email</h4>
+
+								<input type="email" id="emailKontakt" placeholder="Váš email" required="">
+
+						</div>
+						<div class="contact-form2">
+							<h4>Předmět</h4>
+
+								<input type="text" id="predmetKontakt" placeholder="Předmět" required="">
+
+						</div>
+
+
+				<div class="contact-me ">
+					<h4>Zpráva či nezávazná poptávka</h4>
+
+						<textarea id="zpravaKontakt" placeholder="Sem uveďte co poptáváte, případně současné stránky, či stránky, které se vám libí jako vzor pro nové." required=""></textarea>
+						</div>
+						<input type="submit" value="Odeslat">
+				</form>
+                            <script>
+                            $(document).ready(function () {
+                                $('#formKontakt').submit(function () {
+                                    var jmeno = $("#jmenoKontakt").val();
+                                    var email = $("#emailKontakt").val();
+                                    var stranky = $("#strankyKontakt").val();
+                                    var predmet = $("#predmetKontakt").val();
+                                    var zprava = $("#zpravaKontakt").val();
+                                    if(jmeno != "" && email != "" && zprava != "") {
+                                        alert("Dočasně mimo provoz, použíjte prosím email. Děkujeme.");
+                                    }
+                                });
+                            });
+                        </script>
+
+			</div>
+
+			<div class="col-md-4 contact-grids">
+				<div class=" contact-grid animated wow fadeInLeft" data-wow-delay=".5s">
+					<div class="contact-grid1">
+						<div class="contact-grid2 ">
+							<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="contact-grid3">
+							<h4>Sídlo</h4>
+							<p>Voroněžská 144/20, 460 01 Liberec<span>Liberec I-Staré Město.</span></p>
+						</div>
+					</div>
+				</div>
+				<div class=" contact-grid animated wow fadeInUp" data-wow-delay=".5s">
+					<div class="contact-grid1">
+						<div class="contact-grid2 contact-grid4">
+							<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
+						</div>
+						<div class="contact-grid3">
+							<h4>Telefon</h4>
+							<p>+<em class="d-four"></em><em class="d-two"></em><em class="d-zero"></em> <em class="d-seven"></em><em class="d-seven"></em><em class="d-seven"></em> <em class="d-two"></em><em class="d-five"></em><em class="d-six"></em> <em class="d-zero"></em><em class="d-seven"></em><em class="d-seven"></em><span>v běžných hodinách</span></p>
+						</div>
+					</div>
+				</div>
+				<div class=" contact-grid animated wow fadeInRight" data-wow-delay=".5s">
+					<div class="contact-grid1">
+						<div class="contact-grid2 contact-grid5">
+							<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="contact-grid3">
+							<h4>Email</h4>
+							<p><a href="mailto:info(z)sybarite(t)cz">info<em class="atSymbol"></em>sybarite<em class="dotSymbol"></em>com</a><span>dostupné kdykoli</span></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="map">
+		<div class="container">
+			<h3 class="title">Kde nás najdete</h3>
+			<iframe src="http://www.openstreetmap.org/export/embed.html?bbox=15.059039890766142%2C50.770933033883516%2C15.0625804066658%2C50.77238673093336&amp;layer=mapnik&amp;marker=50.77165988805559%2C15.060810148715973" style="border:0"></iframe>
+                        <div class="grid_3 grid_4 ">
+		    <div class="bs-example">
+				<div class="mb-60">
+                                    <p><em>Sybarite s.r.o., IČO: 28708148, DIČ: CZ28708148, Sídlo: Liberec I-Staré Město, Voroněžská 144/20, PSČ 460 01, Spisová značka: C 27834 vedená u Krajského soudu v Ústí nad Labem</em></p>
+				</div>
+			</div>
+	    </div>
+
+
+	</div>
+</div>
+<!-- //contact -->
