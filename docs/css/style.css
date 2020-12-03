@@ -253,12 +253,12 @@ a.menu__link {
 .header_right ul li:nth-child(2) {
 	border:none;
 }
-.header_right ul li i {
+.header_right ul li i.sup-icon {
     left: -42px;
     font-size: 29px;
     top: 21px;
 }
-.header_right ul li i{
+.header_right ul li i.sup-icon {
     left: -27px;
     font-size: 29px;
     top: 21px;
@@ -3386,11 +3386,14 @@ p.no-marg{
 
 }
 
-em.d-zero, em.d-one, em.d-two, em.d-three, em.d-four, em.d-five, em.d-six, em.d-seven, em.d-eight, em.d-nine {
+i.d-zero, i.d-one, i.d-two, i.d-plus, i.d-three, i.d-four, i.d-five, i.d-six, i.d-seven, i.d-eight, i.d-nine {
     font-style: normal;
 }
 .d-zero:before {
   content: "0";
+}
+.d-plus:before {
+  content: "+";
 }
 .d-one:before {
   content: "1";
