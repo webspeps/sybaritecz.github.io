@@ -69,7 +69,7 @@ pages = [
          url="index",
          content_file='page_domu.html',
          language="cs",
-         last_mod=datetime.datetime(2020, 11, 7)
+         last_mod=datetime.datetime(2020, 12, 3)
          ),
     Page(title="Webové stránky Sybarite | poskytované služby",
          keywords="webové stránky, online projekty, SEO optimalizace, responzivní design, mobilní zařízení, Seznam.cz, Google.com",  # noqa: E501
@@ -77,7 +77,7 @@ pages = [
          url="sluzby",
          content_file='page_sluzby.html',
          language="cs",
-         last_mod=datetime.datetime(2020, 11, 7)
+         last_mod=datetime.datetime(2020, 12, 3)
          ),
     Page(title="Webové stránky Sybarite | projekty",
          keywords="webové stránky, online projekty, SEO optimalizace, responzivní design, mobilní zařízení, Seznam.cz, Google.com",  # noqa: E501
@@ -85,7 +85,7 @@ pages = [
          url="projekty",
          content_file='page_projekty.html',
          language="cs",
-         last_mod=datetime.datetime(2020, 11, 7)
+         last_mod=datetime.datetime(2020, 12, 3)
          ),
     Page(title="Webové stránky Sybarite | kontaktní informace",
          keywords="webové stránky, online projekty, SEO optimalizace, responzivní design, mobilní zařízení, Seznam.cz, Google.com",  # noqa: E501
@@ -93,7 +93,7 @@ pages = [
          url="kontakt",
          content_file='page_kontakt.html',
          language="cs",
-         last_mod=datetime.datetime(2020, 11, 7)
+         last_mod=datetime.datetime(2020, 12, 3)
          ),
     Page(title="Webové stránky Sybarite | Sybarite company",
          keywords="webové stránky, online projekty, SEO optimalizace, responzivní design, mobilní zařízení, Seznam.cz, Google.com",  # noqa: E501
@@ -101,7 +101,7 @@ pages = [
          url="english",
          content_file='page_english.html',
          language="en",
-         last_mod=datetime.datetime(2020, 11, 7)
+         last_mod=datetime.datetime(2020, 12, 3)
          ),
     Page(title="Webové stránky Sybarite | reference",
          keywords="webové stránky, online projekty, SEO optimalizace, responzivní design, mobilní zařízení, Seznam.cz, Google.com",  # noqa: E501
@@ -109,7 +109,7 @@ pages = [
          url="reference",
          content_file='page_reference.html',
          language="cs",
-         last_mod=datetime.datetime(2020, 11, 7)
+         last_mod=datetime.datetime(2020, 12, 3)
          )
 ]
 
