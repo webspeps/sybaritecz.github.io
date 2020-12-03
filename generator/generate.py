@@ -141,6 +141,6 @@ with open(PATH_TO_TEMPLATES.joinpath('site_map.xml')) as tem_han:
 
 robots_txt_content = f"""User-agent: *
 Allow: /
-Sitemap: {URL_ROOT}/sitemap.xml"""
+Sitemap: {URL_ROOT}sitemap.xml"""
 with PATH_TO_OUTPUT.joinpath('robots.txt').open('w') as robots_txt_h:
     robots_txt_h.write(robots_txt_content)
